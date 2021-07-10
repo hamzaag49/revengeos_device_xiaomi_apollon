@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_apollon.mk
+    $(LOCAL_DIR)/revengeos_apollon.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_apollon-user \
-    fluid_apollon-userdebug \
-    fluid_apollon-eng
+    revengeos_apollon-user \
+    revengeos_apollon-userdebug \
+    revengeos_apollon-eng
