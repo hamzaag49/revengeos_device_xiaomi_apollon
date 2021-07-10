@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from apollon device
 $(call inherit-product, device/xiaomi/apollon/device.mk)
 
-# Inherit some common Fluid stuff.
+# Inherit some common Revengeos stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
 
 PRODUCT_NAME := revengeos_apollon
